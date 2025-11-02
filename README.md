@@ -1,28 +1,41 @@
 # data-analysis-project-2
-A data analysis project using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn. It covers data preprocessing, handling missing values, and visualizing data to extract meaningful insights and assist decision-making processes.
-# Data Analysis Project 2
+# پروژه تحلیل داده‌ها ۲
 
-This project involves data analysis using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn. It includes data preprocessing, handling missing values, and visualizing data to derive insights for better decision-making.
+این پروژه شامل یک پایپلاین ساده یادگیری ماشین برای مسائل رگرسیون با استفاده از کتابخانه‌های پایتون مانند Pandas، NumPy، Matplotlib و Seaborn است. این پروژه شامل بارگذاری داده‌ها، پیش‌پردازش و بصری‌سازی داده‌ها است که به دنبال آن مدل‌های مختلف رگرسیونی آموزش داده می‌شود.
 
-## Project Description
+## توضیحات پروژه
 
-In this project, various steps of data analysis are applied, including:
+در این پروژه، مراحل زیر انجام شده است:
 
-- **Data Preprocessing**: Handling missing values and transforming data into appropriate formats.
-- **Data Analysis**: Using Pandas and NumPy for data manipulation and computation.
-- **Data Visualization**: Leveraging Matplotlib and Seaborn for graphical representation of data insights.
+1. **بارگذاری داده‌ها و پیش‌پردازش**:
+   - داده‌ها بارگذاری می‌شوند، مقادیر گمشده بررسی شده و آمار توصیفی داده‌ها تحلیل می‌شود.
+   - تحلیل داده‌ها با استفاده از **EDA** برای درک بهتر داده‌ها انجام می‌شود.
 
-## Libraries Used
+2. **آموزش و ارزیابی مدل‌ها**:
+   - **رگرسیون خطی**: مدل آموزش داده شده، پیش‌بینی‌ها انجام می‌شود و خطای میانگین مربعات (MSE) و ضریب تعیین (R²) برای ارزیابی محاسبه می‌شود.
+   - **رگرسیون KNN**: مراحل مشابه برای مدل K-نزدیک‌ترین همسایه‌ها (KNN) انجام شده است.
+   - **درخت تصمیم**: مدل درخت تصمیم آموزش داده شده و ارزیابی می‌شود.
+   - **رگرسیون جنگل تصادفی**: مدل جنگل تصادفی آموزش داده شده و ارزیابی می‌شود.
+
+3. **ارزیابی مدل‌ها**:
+   - ارزیابی مدل‌ها با استفاده از معیارهای MSE و R² بر روی داده‌های آموزشی و تستی انجام شده است.
+
+## کتابخانه‌های مورد استفاده
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- scikit-learn
 
-## How to Use
-1. **Clone the repository**:
-2. **Install required libraries**:
-3. **Run the code**:
-Open the `Updated_Mini_Project_2_(1).ipynb` file in Jupyter Notebook and follow the steps for data analysis.
 
-## Contributing
-If you would like to contribute to this project, please feel free to submit a pull request. All suggestions and improvements are welcome!
+## نحوه استفاده
+1. **کلون کردن ریپازیتوری**:
+2. **نصب کتابخانه‌های مورد نیاز**:
+3. **اجرای کد**:
+فایل `Updated_Mini_Project_2_(1).ipynb` را در Jupyter Notebook باز کنید و مراحل تحلیل داده‌ها و آموزش مدل‌ها را دنبال کنید.
+
+## نحوه مشارکت
+اگر مایل به مشارکت در این پروژه هستید، لطفاً یک Pull Request ارسال کنید. پیشنهادات و بازخوردهای شما خوش‌آمد است!
+
+1. **کلون کردن ریپازیتوری**:
+
